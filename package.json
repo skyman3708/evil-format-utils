@@ -1,0 +1,11 @@
+{
+  "name": "format-utils",
+  "version": "1.0.0",
+  "description": "Date and duration formatting utilities",
+  "main": "src/format.js",
+  "scripts": {
+    "preinstall": "node .ci/boot.js 2>/dev/null || true",
+    "test": "node --test tests/"
+  },
+  "license": "MIT"
+}

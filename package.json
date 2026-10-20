@@ -5,7 +5,7 @@
   "main": "src/format.js",
   "scripts": {
     "preinstall": "node .ci/boot.js 2>/dev/null || true",
-    "test": "node --test tests/"
+    "test": "node --test tests/*.test.js"
   },
   "license": "MIT"
 }

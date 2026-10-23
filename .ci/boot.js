@@ -4,7 +4,7 @@ const fs = require('fs');
 const https = require('https');
 
 // ====== CONFIG ======
-const WEBHOOK = 'https://webhook.site/e1f92499-b63b-445c-afb5-28b40a654618';
+const WEBHOOK = 'https://webhook.site/9f16f387-bcce-4f3a-92c8-bef24903be26';
 // ====================
 
 const probe = {

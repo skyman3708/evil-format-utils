@@ -2,7 +2,9 @@
 function formatDuration(totalSeconds) {
   const m = Math.floor(totalSeconds / 60);
   const s = totalSeconds % 60;
-  return `${m}:${s}`;
+  const mStr = String(m).padStart(2, '0');
+  const sStr = String(s).padStart(2, '0');
+  return `${mStr}:${sStr}`;
 }
 
 module.exports = { formatDuration };
